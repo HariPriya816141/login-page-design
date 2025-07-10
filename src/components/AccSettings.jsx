@@ -1,6 +1,7 @@
 import React from 'react'
 import MobileContainer from '../MobileContainer'
 import "./custom.css"
+import marryDoePic from '../assets/marrydoe.jpg'
 
 const AccSettings = () => {
   return (
@@ -11,7 +12,7 @@ const AccSettings = () => {
        </header>
      <div className="profile-info d-flex" style={{margin:"20px", gap:"20px"}}>
         <div className="profile-img">
-            <img src="/public/assets/marrydoe.jpg" alt="" className="profilepic"  />
+            <img src={marryDoePic} alt="" className="profilepic"  />
             <div className="icon"><i className="bi bi-camera-fill"></i></div>
         </div>
         <div className="profile-name">
